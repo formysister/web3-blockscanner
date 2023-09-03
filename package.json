@@ -1,0 +1,26 @@
+{
+  "name": "get_erc721contract",
+  "version": "1.0.0",
+  "description": "this application get the erc721 contract creation tx from specified block",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "erc721",
+    "transaction",
+    "ethers",
+    "web3"
+  ],
+  "author": "cyberstorm",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.9",
+    "nodemon": "^2.0.19",
+    "readline": "^1.3.0",
+    "stream": "0.0.2",
+    "stream-array": "^1.1.2"
+  }
+}
